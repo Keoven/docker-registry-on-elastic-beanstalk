@@ -1,0 +1,5 @@
+zip -r /tmp/docker-registry.zip ./* .ebextensions
+
+rm -rf pkg
+mkdir -p pkg
+mv /tmp/docker-registry.zip pkg/.

@@ -13,8 +13,5 @@
  * complete the wizard
  * wait for the environment and app to spin up
  * profit
- 
+
 the registry will be running on port 80 (not 5000)
- 
- 
- 

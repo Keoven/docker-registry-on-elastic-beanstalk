@@ -6,8 +6,8 @@ common:
   boto_bucket: _env:S3_BUCKET
   storage_path: /
   storage_redirect: true
-  s3_encrypt: false
-  s3_secure: false
+  s3_encrypt: true
+  s3_secure: true
 
   secret_key: _env:SECRET_KEY
 
